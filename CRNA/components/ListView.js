@@ -91,7 +91,7 @@ const COMMUNITY_MEMBERS = [
     renderMemberRow(member) {
       return (
         <View style={styles.rowContainer} key={member}>
-          <Image source={{ url: member.image }} style={styles.avatar} />
+          <Image source={{ uri: member.image }} style={styles.avatar} />
           <Text style={styles.nameLabel}>{member.name}</Text>
           <Text style={styles.githubUsernameLabel}>@{member.github_username}</Text>
         </View>

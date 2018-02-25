@@ -41,7 +41,7 @@ const styles = StyleSheet.create({
     buttonViewContainer: {
       justifyContent: 'center',
       alignItems: 'center',
-      height: 400,
+      height: 150,
       flex: 1,
     }
   });
